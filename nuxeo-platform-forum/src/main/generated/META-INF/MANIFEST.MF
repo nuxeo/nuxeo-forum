@@ -1,0 +1,36 @@
+Manifest-Version: 1.0
+Bundle-Category: stateless
+Bundle-ManifestVersion: 2
+Bundle-Name: Nuxeo ECM Forum implementation
+Bundle-SymbolicName: org.nuxeo.ecm.platform.nuxeo-platform-forum
+Bundle-Vendor: Nuxeo
+Bundle-Version: 0.0.0.reload-SNAPSHOT
+Export-Package: doc;version="0.0.0",doc-parent;version="0.0.0",org.nuxeo
+ .ecm.platform.forum.web;uses:="org.jboss.seam,org.jboss.seam.annotation
+ s,org.jboss.seam.annotations.web,org.jboss.seam.faces,org.nuxeo.ecm.cor
+ e.api,org.nuxeo.ecm.platform.comment.web,org.nuxeo.ecm.platform.forum.w
+ eb.api,org.nuxeo.ecm.platform.task,org.nuxeo.ecm.platform.ui.web.api,or
+ g.nuxeo.ecm.platform.util,org.nuxeo.ecm.webapp.helpers";version="0.0.0"
+ ,org.nuxeo.ecm.platform.forum.web.api;version="0.0.0";uses:="org.nuxeo.
+ ecm.core.api,org.nuxeo.ecm.platform.comment.web"
+Import-Package: javax.faces.context;version="[2.2,3)",org.apache.commons
+ .logging;version="[1.2,2)",org.jboss.seam,org.jboss.seam.annotations,or
+ g.jboss.seam.annotations.web,org.jboss.seam.core,org.jboss.seam.faces,o
+ rg.jboss.seam.international,org.nuxeo.ecm.automation.task;version="[0.0
+ ,1)",org.nuxeo.ecm.core.api;version="[0.0,1)",org.nuxeo.ecm.core.api.pa
+ thsegment;version="[0.0,1)",org.nuxeo.ecm.platform.comment.web;version=
+ "[0.0,1)",org.nuxeo.ecm.platform.forum.web.api;version="[0.0,1)",org.nu
+ xeo.ecm.platform.task;version="[0.0,1)",org.nuxeo.ecm.platform.task.cor
+ e.service;version="[0.0,1)",org.nuxeo.ecm.platform.ui.web.api;version="
+ [0.0,1)",org.nuxeo.ecm.platform.util;version="[0.0,1)",org.nuxeo.ecm.we
+ bapp.helpers;version="[0.0,1)",org.nuxeo.runtime.api;version="[0.0,1)"
+Nuxeo-Component: OSGI-INF/forum-actions-contrib.xml,OSGI-INF/forum-types
+ -contrib.xml,OSGI-INF/thread-adapters-contrib.xml,OSGI-INF/forum-conten
+ tviews-contrib.xml,OSGI-INF/forum-layouts-listing-contrib.xml,OSGI-INF/
+ forum-pageprovider-contrib.xml
+Nuxeo-Components: OSGI-INF/*.xml, OSGI-INF/*.properties, OSGI-INF/blackl
+ ist
+Require-Bundle: org.nuxeo.ecm.platform.ui,org.nuxeo.ecm.platform.forum.a
+ pi,org.nuxeo.ecm.platform.comment.web
+Require-Capability: osgi.extender;filter:="(osgi.extender=nuxeo.runtime)
+ ",osgi.extender;filter:="(osgi.extender=nuxeo.osgi)"

@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: org.nuxeo.ecm.platform.nuxeo-platform-forum-api.tests
+Bundle-SymbolicName: org.nuxeo.ecm.platform.nuxeo-platform-forum-api.tes
+ ts
+Bundle-Version: 0.0.0.reload-SNAPSHOT
+Fragment-Host: org.nuxeo.ecm.platform.nuxeo-platform-forum-api
+Nuxeo-Components: OSGI-INF/*.xml, OSGI-INF/*.properties, OSGI-INF/blackl
+ ist
+Require-Capability: osgi.extender;filter:="(osgi.extender=nuxeo.runtime)
+ ",osgi.extender;filter:="(osgi.extender=nuxeo.osgi)"

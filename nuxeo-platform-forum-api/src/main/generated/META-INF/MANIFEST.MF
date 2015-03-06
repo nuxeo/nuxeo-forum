@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Nuxeo ECM Forum API
+Bundle-SymbolicName: org.nuxeo.ecm.platform.nuxeo-platform-forum-api
+Bundle-Vendor: Nuxeo
+Bundle-Version: 0.0.0.reload-SNAPSHOT
+Export-Package: doc;version="0.0.0",doc-parent;version="0.0.0",org.nuxeo
+ .ecm.platform.forum.web.api;uses:="org.nuxeo.ecm.core.api,org.nuxeo.ecm
+ .core.api.adapter";version="0.0.0",org.nuxeo.ecm.platform.forum.workflo
+ w;version="0.0.0"
+Import-Package: org.nuxeo.ecm.core.api;version="[0.0,1)",org.nuxeo.ecm.c
+ ore.api.adapter;version="[0.0,1)",org.nuxeo.ecm.platform.comment.api;ve
+ rsion="[0.0,1)"
+Nuxeo-Components: OSGI-INF/*.xml, OSGI-INF/*.properties, OSGI-INF/blackl
+ ist
+Require-Capability: osgi.extender;filter:="(osgi.extender=nuxeo.runtime)
+ ",osgi.extender;filter:="(osgi.extender=nuxeo.osgi)"

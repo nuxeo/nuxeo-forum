@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-Category: core,stateful
+Bundle-ManifestVersion: 2
+Bundle-Name: Nuxeo ECM Forum Workflow implementation
+Bundle-SymbolicName: org.nuxeo.ecm.platform.nuxeo-platform-forum-workflo
+ w
+Bundle-Vendor: Nuxeo
+Bundle-Version: 0.0.0.reload-SNAPSHOT
+Export-Package: doc;version="0.0.0",doc-parent;version="0.0.0",process;v
+ ersion="0.0.0"
+Nuxeo-Components: OSGI-INF/*.xml, OSGI-INF/*.properties, OSGI-INF/blackl
+ ist
+Require-Bundle: org.nuxeo.ecm.platform.forum.api, org.nuxeo.ecm.core.api
+Require-Capability: osgi.extender;filter:="(osgi.extender=nuxeo.runtime)
+ ",osgi.extender;filter:="(osgi.extender=nuxeo.osgi)"

@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-Category: core
+Bundle-ManifestVersion: 2
+Bundle-Name: Nuxeo ECM Forum implementation
+Bundle-SymbolicName: org.nuxeo.ecm.platform.nuxeo-platform-forum-core
+Bundle-Vendor: Nuxeo
+Bundle-Version: 0.0.0.reload-SNAPSHOT
+Export-Package: doc;version="0.0.0",doc-parent;version="0.0.0",schemas;v
+ ersion="0.0.0"
+Nuxeo-Component: OSGI-INF/forum-schemas-contrib.xml,OSGI-INF/forum-life-
+ cycle-contrib.xml
+Nuxeo-Components: OSGI-INF/*.xml, OSGI-INF/*.properties, OSGI-INF/blackl
+ ist
+Require-Bundle: org.nuxeo.ecm.core.schema,org.nuxeo.ecm.core
+Require-Capability: osgi.extender;filter:="(osgi.extender=nuxeo.runtime)
+ ",osgi.extender;filter:="(osgi.extender=nuxeo.osgi)"
