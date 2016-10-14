@@ -19,7 +19,7 @@ Install [the Nuxeo Forum Marketplace Package](https://connect.nuxeo.com/nuxeo/si
 
 ## QA results
 
-[![Build Status](https://qa.nuxeo.org/jenkins/buildStatus/icon?job=addons_nuxeo-forum-master)](https://qa.nuxeo.org/jenkins/job/addons_nuxeo-forum-master/)
+[![Build Status](https://qa.nuxeo.org/jenkins/buildStatus/icon?job=master/addons_nuxeo-forum-master)](https://qa.nuxeo.org/jenkins/job/master/job/addons_nuxeo-forum-master/)
 
 # About Nuxeo
 
