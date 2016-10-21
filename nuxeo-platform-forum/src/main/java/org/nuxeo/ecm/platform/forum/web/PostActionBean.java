@@ -354,7 +354,7 @@ public class PostActionBean implements PostAction {
             DocumentModel previousPost = documentManager.getDocument(new IdRef(previousId));
 
             // Test to ensure that previous comment got the "post" schema
-            if (previousPost.getDataModel("post") != null) {
+            if (previousPost.hasSchema("post")) {
                 String previousTitle = (String) previousPost.getProperty("post", "title");
                 String prefix = resourcesAccessor.getMessages().get("label.forum.post.title.prefix");
                 title = prefix + previousTitle;
