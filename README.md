@@ -9,6 +9,10 @@ Topics can be moderated so trusted users can oversee the content and
 the direction of discussions. The access to a forum is defined by
 permissions.
 
+## Module Status
+
+This module is deprecated since LTS 2016.
+
 # Building
 
     mvn clean install
