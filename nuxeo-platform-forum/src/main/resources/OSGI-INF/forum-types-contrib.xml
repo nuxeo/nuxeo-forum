@@ -17,9 +17,6 @@
       <bigIcon>/icons/forum_100.png</bigIcon>
       <description>Forum.description</description>
       <category>Collaborative</category>
-      <subtypes>
-        <type>Thread</type>
-      </subtypes>
       <layouts mode="any">
         <layout>heading</layout>
       </layouts>
