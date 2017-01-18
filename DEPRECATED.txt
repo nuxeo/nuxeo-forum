@@ -1,0 +1,2 @@
+The `nuxeo-forum` addon has been deprecated and removed since 9.10.
+
